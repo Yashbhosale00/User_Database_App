@@ -6,7 +6,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'User Database App',
+      title: 'User Database Application',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: UserScreen(),
     );
@@ -53,11 +53,11 @@ class _UserScreenState extends State<UserScreen> {
           children: [
             TextField(
               controller: nameController,
-              decoration: InputDecoration(labelText: 'Name'),
+              decoration: const InputDecoration(labelText: 'Name'),
             ),
             TextField(
               controller: ageController,
-              decoration: InputDecoration(labelText: 'Age'),
+              decoration: const InputDecoration(labelText: 'Age'),
               keyboardType: TextInputType.number,
             ),
             ElevatedButton(
