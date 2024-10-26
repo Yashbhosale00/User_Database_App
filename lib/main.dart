@@ -6,7 +6,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'User Database Application',
+      title: 'User Database App',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: UserScreen(),
     );
